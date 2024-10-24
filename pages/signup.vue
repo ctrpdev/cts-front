@@ -124,6 +124,7 @@ async function submitForm() {
     errorMessage.value = "Complete los campos";
     return;
   }
+  
   if (checkPhone(phoneNumber.value)) {
     errorMessage.value = "El número de teléfono debe contener 10 dígitos. Por ejemplo: 0912345678, 5612345678";
     return;
