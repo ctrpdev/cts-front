@@ -20,18 +20,13 @@
 
 <script setup>
 import { ref } from "vue";
-import { useUserStore } from "@/stores/user";
 import room from "@/assets/img/room.jpg";
 import room2 from "@/assets/img/room2.jpg";
 import Card from "@/components/Card.vue";
 
-const userStore = useUserStore();
 const roomImg = ref(room);
 const roomImg2 = ref(room2);
 
-function logout() {
-  userStore.removeToken();
-}
 </script>
 
 <style>
