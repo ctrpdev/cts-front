@@ -4,12 +4,12 @@
   >
     <div class="flex flex-row justify-center gap-3 w-[80%] m-auto">
       <Card 
-      :imgSrc="room"
+      :imgSrc="roomImg"
       title="Estilo local"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
       <Card 
-      :imgSrc="room2"
+      :imgSrc="roomImg2"
       title="Estilo urbano"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
