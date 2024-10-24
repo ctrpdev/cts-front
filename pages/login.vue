@@ -41,10 +41,10 @@
         <div
           class="bg-gray-800/20 backdrop-blur-md rounded-xl w-[75%] p-16 shadow-lg"
         >
-          <h1 class="text-white text-5xl font-bold drop-shadow-lg">
+          <h1 class="text-white text-3xl lg:text-5xl font-bold drop-shadow-lg">
             Bienvenido a nuestro hotel
           </h1>
-          <h3 class="text-white text-3xl font-bold drop-shadow-lg">
+          <h3 class="mt-3 text-white text-xl lg:text-3xl font-bold drop-shadow-lg">
             Ingresa y disfruta de nuestros beneficios
           </h3>
         </div>
