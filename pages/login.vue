@@ -39,7 +39,7 @@
         class="relative z-10 flex flex-col justify-center items-center h-full text-center"
       >
         <div
-          class="bg-orange-500/30 backdrop-blur-md rounded-xl w-[75%] p-16 shadow-lg"
+          class="bg-gray-800/20 backdrop-blur-md rounded-xl w-[75%] p-16 shadow-lg"
         >
           <h1 class="text-white text-5xl font-bold drop-shadow-lg">
             Bienvenido a nuestro hotel
