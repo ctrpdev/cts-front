@@ -101,6 +101,11 @@ const validar = () => {
   );
 };
 
+function checkPhone(number) {
+  const phoneRegex = /^[0-9]{10}$/;
+  if (!phoneRegex.test(number)) return true;
+}
+
 async function checkEmailExists(email) {
   try {
     const response = await $fetch(`http://127.0.0.1:8000/api/check-email/`, {
@@ -117,6 +122,10 @@ async function submitForm() {
   errorMessage.value = "";
   if (validar()) {
     errorMessage.value = "Complete los campos";
+    return;
+  }
+  if (checkPhone(phoneNumber.value)) {
+    errorMessage.value = "El número de teléfono debe contener 10 dígitos. Por ejemplo: 0912345678, 5612345678";
     return;
   }
 
