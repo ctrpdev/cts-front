@@ -4,12 +4,12 @@
   >
     <div class="flex flex-row justify-center gap-3 w-[80%] m-auto">
       <Card 
-      :imgSrc="roomImg"
+      :imgSrc="room"
       title="Estilo local"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
       <Card 
-      :imgSrc="roomImg2"
+      :imgSrc="room2"
       title="Estilo urbano"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
@@ -19,13 +19,9 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import room from "@/assets/img/room.jpg";
 import room2 from "@/assets/img/room2.jpg";
 import Card from "@/components/Card.vue";
-
-const roomImg = ref(room);
-const roomImg2 = ref(room2);
 
 </script>
 
